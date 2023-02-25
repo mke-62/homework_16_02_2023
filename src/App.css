@@ -1,10 +1,26 @@
 .App {
   text-align: center;
 }
+#root{
+  width: 800px;
+  margin: 1em;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+img{margin-right: 1em;
+max-width: 300px;}
+ul{
+  display: flex;
+  gap: 2em;
+}
+.menu{
+  background: aquamarine;
+  padding: 1em;
+  color: red;
+}
+.Logo {
+ display: flex;
+  align-items: center;
+  margin-bottom: 1em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
